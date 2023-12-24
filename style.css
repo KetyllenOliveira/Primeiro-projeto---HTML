@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+}
+
+header {
+    flex: 1;
+}
+
+strong {
+    color: #e322fd;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #22D4FD;
+    color: white;
+    text-align: center;
+}
+
+.purple-button {
+    background-color: #e322fd;
+}
+
+.black-button {
+    background-color: black;
+    color: white;
+}
